@@ -1,0 +1,113 @@
+{
+  "stocks": 3052,
+  "data_start": "2021-08-24",
+  "data_end": "2026-11-11",
+  "daily": {
+    "测试期": {
+      "calendar_days": 243,
+      "valid_days": 221,
+      "missing_days": 22,
+      "mean_strategy": 0.011416396050042518,
+      "mean_index": -0.0002793602130895872,
+      "mean_excess": 0.011695756263132103,
+      "median_excess": 0.013150178339094432,
+      "beat_fraction": 0.7420814479638009,
+      "positive_basket_days": 0.7239819004524887,
+      "daily_vol_strategy": 0.022457244713555504,
+      "daily_vol_index": 0.009579529408284748,
+      "worst_basket_day": -0.06347738892389254,
+      "best_basket_day": 0.07057000468969833,
+      "top5_excess_removed_mean": 0.010716702729531232
+    },
+    "训练期": {
+      "calendar_days": 969,
+      "valid_days": 916,
+      "missing_days": 53,
+      "mean_strategy": 0.012064672876277154,
+      "mean_index": 0.00019668377873647514,
+      "mean_excess": 0.01186798909754068,
+      "median_excess": 0.012286840195072767,
+      "beat_fraction": 0.722707423580786,
+      "positive_basket_days": 0.7194323144104804,
+      "daily_vol_strategy": 0.023682272013175715,
+      "daily_vol_index": 0.01022247367362904,
+      "worst_basket_day": -0.06437703871464319,
+      "best_basket_day": 0.09493616127670343,
+      "top5_excess_removed_mean": 0.011470781992293715
+    }
+  },
+  "timing": {
+    "common_complete_days": 215,
+    "stock_observations": 4300,
+    "mean_overnight": 0.011737186196213431,
+    "mean_open_to_close": -3.92563974669176e-05,
+    "mean_close_to_close": 0.011179512520706904,
+    "positive_open_to_close_basket_days": 0.5069767441860465,
+    "positive_open_to_close_stock_observations": 0.45046511627906977,
+    "mean_index_open_to_close": 0.0008501573766205775,
+    "open_gap_at_least_9_5pct_fraction": 0.10116279069767442
+  },
+  "uncertainty": {
+    "price:sh.000001": {
+      "valid_days": 221,
+      "mean_excess": 0.011695756263132105,
+      "ci95_mean_excess_by_calendar_block": {
+        "5": [
+          0.008875036555016895,
+          0.014632326877078506
+        ],
+        "10": [
+          0.009023792207341948,
+          0.014494025589019485
+        ],
+        "20": [
+          0.009058403885439478,
+          0.014523445466895048
+        ]
+      }
+    },
+    "market": {
+      "valid_days": 107,
+      "mean_excess": 0.008359958329476428,
+      "ci95_mean_excess_by_calendar_block": {
+        "5": [
+          0.004436586029868834,
+          0.012226787344417001
+        ],
+        "10": [
+          0.0047425564964123515,
+          0.012084643726807415
+        ],
+        "20": [
+          0.004751921231456253,
+          0.01249872004807475
+        ]
+      }
+    }
+  },
+  "weights": [
+    0.05000495819755214,
+    0.05019117310110686,
+    0.050254482568096295,
+    0.050230980173204334,
+    0.7993184059600403
+  ],
+  "seed": 20261112,
+  "candidate_count": 1002,
+  "top15_latest_largest": 10,
+  "top15_last2_mean": 0.7816899795954563,
+  "top15_w5_mean": 0.5155258040300954,
+  "top15_w5_median": 0.6106171494406943,
+  "peak_quantiles": {
+    "0.1": 0.008561811046584444,
+    "0.25": 0.03374518391974407,
+    "0.5": 0.0799273875421519,
+    "0.75": 0.15418318124558328,
+    "0.9": 0.2520350371783393,
+    "0.95": 0.33255011679196433
+  },
+  "peak_n": 4664,
+  "peak_above10": 0.4202401372212693,
+  "train_signal_days": 958,
+  "test_signal_days": 238
+}

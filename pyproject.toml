@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a-share-relative-strength-l"
+version = "1.0.0"
+description = "Five-day relative market strength and short-horizon opportunity research for A-shares"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.2,<3", "pandas>=2.2,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

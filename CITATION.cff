@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "如引用本研究，请注明项目名称、作者账号与所用提交版本。"
+title: "A股五日相对市场优势 L 模型构建与历史验证"
+type: software
+authors:
+  - name: "dddrtu888-source"
+version: 1.0.0
+date-released: 2026-11-14
+url: "https://github.com/dddrtu888-source/five-day-relative-strength-L"
+repository-code: "https://github.com/dddrtu888-source/five-day-relative-strength-L"
+abstract: "中国A股五日相对强势与短线上冲机会的探索性历史验证，包含研究报告、聚合结果及独立计算代码。实际可执行收益尚未得到验证。"
+keywords:
+  - A-shares
+  - relative-strength
+  - quantitative-research
+  - short-horizon-opportunities
+

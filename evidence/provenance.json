@@ -1,0 +1,62 @@
+{
+  "index_snapshot": "4a615b506dc84a54b195601e45232443",
+  "source_snapshot": "20261113-134822-339371",
+  "saved_at": "2026-11-13T18:38:59+08:00",
+  "source_settings": {
+    "version": "L-five-day-peak70-v4",
+    "top_n": 20,
+    "horizon": 5,
+    "cost_bps": 10,
+    "seed": 20261112,
+    "draws": 5000,
+    "benchmark_code": "sh.000001",
+    "benchmark_name": "上证综指",
+    "comparison_engine": "peak70-comparison-v1",
+    "min_peers": 500,
+    "curve_kind": "observed_peak70_lower_bound",
+    "peak_fraction": 0.7,
+    "uses_future_peak": true,
+    "curve_valuation": "五批资金轮动；窗口完成后按事后峰值70%结算；期间按成本占用计价，不含持仓浮亏"
+  },
+  "split": {
+    "train_start": "2021-11-11",
+    "development_end": "2025-11-10",
+    "last_training_signal": "2025-10-24",
+    "test_start": "2025-11-11",
+    "test_end": "2026-11-11"
+  },
+  "data_fingerprint": "0b18f3e3aedf48534eff3a9cb191cbdd854f93db90dc7be92b56e17f8d06dabb",
+  "source_files": {
+    "20261113-134822-339371/curves.parquet": "4ed1be33d1a609966047b70d627a3593b289f41be6b8405e230f72a97a78d444",
+    "20261113-134822-339371/indexes.parquet": "35672e648668a6a715880c9e7c05ba8bfa3374123609b92afd5de8d0c3bf2f42",
+    "20261113-134822-339371/pairs.parquet": "e09def8c0a6bb165a3c6e1b774f05b1e3c13976113a0284116bd5c169f19f2b7",
+    "20261113-134822-339371/periods.parquet": "d620d0f08846cd79596c3bd98329aab9adb14c0c054cea6397a6d68ebfdad063",
+    "20261113-134822-339371/summary.parquet": "95065095b94fdd98a1d18e51c7487f3b6961949e260b4971d0910eb61444d5f8",
+    "20261113-134822-339371/report.json": "604afecfe1604ee2354589cba3cd89fec29cccbfb1f95239a670feb6ea9cdde9",
+    "20261113-134822-339371/frozen_weights.json": "0b7a6b73d92ca5a8fce0fc4b5b3fad5a33b923f1932861ce1022161fc2c319ed",
+    "4a615b506dc84a54b195601e45232443/curves.parquet": "41591e5496576235ae3876c6814affa26cffd802104403675afd79c53ce8ad7b",
+    "4a615b506dc84a54b195601e45232443/daily.csv": "fd0fcfa66f943f1f3cdfd63212aa272a9a616f348913f1be7701157c8c36b5f3",
+    "4a615b506dc84a54b195601e45232443/daily.parquet": "736975c552e53a4c4ca0171c33a9a04624c992fcd84eaa1e82292bb28de942ba",
+    "4a615b506dc84a54b195601e45232443/metadata.json": "0c631412d4481209391fad4b520824d9fbfb6e5bd6fcad5177843b0426ef4485",
+    "4a615b506dc84a54b195601e45232443/skips.parquet": "2e836d6adff325aede8989ffcbc87094563445f1d0a4ba61dd92764ecca42844",
+    "4a615b506dc84a54b195601e45232443/summary.csv": "1d624a4efa4a4bb9c855b2693fea57640db55b6812a41c4ce5026c7a5d664ad8",
+    "4a615b506dc84a54b195601e45232443/summary.parquet": "fdca6b93ae77695b76338f4f86c4693431ec8143fab52ce9eea2f2683f14b38a",
+    "4a615b506dc84a54b195601e45232443/trades.csv": "2569c482125815751a8fd1f82e68ef6929489c9c979e8c702ff730f2d725ed35",
+    "4a615b506dc84a54b195601e45232443/trades.parquet": "26a5bb6cbb5e1b1f18ae195f7eb0d6fb42cbdb1f0011b9181b58b3ecc49bac54",
+    "4a615b506dc84a54b195601e45232443/training_trials.csv": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+    "4a615b506dc84a54b195601e45232443/training_trials.parquet": "2e836d6adff325aede8989ffcbc87094563445f1d0a4ba61dd92764ecca42844"
+  },
+  "scope": "Read-only aggregation and timing audit of frozen observations; no retraining or new execution backtest.",
+  "full_search_scores_available": false,
+  "verification": {
+    "source_files_unchanged": true,
+    "daily_key_unique": true,
+    "timing_matches_saved_daily": true,
+    "weights_sum_to_one": true
+  },
+  "runtime": {
+    "python": "3.13.17",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6"
+  }
+}
